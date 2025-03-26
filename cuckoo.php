@@ -1,5 +1,5 @@
 <?php
-include_once('./_common.php');
+include_once($_SERVER['DOCUMENT_ROOT'].'/common.php');
 $g5['title'] = "Cuckoo Alarm Clock";
 include_once(G5_PATH.'/_head.php');
 if (!defined('_GNUBOARD_')) exit;
